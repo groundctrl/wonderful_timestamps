@@ -8,10 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = WonderfulTimestamps::VERSION
   spec.authors       = ["Vincent Franco"]
   spec.email         = ["vince@freshivore.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Legacy dcreate and dupdate fields for Wonderful Union}
+  spec.description   = %q{Victims of their own success, this is a shim for migration}
   spec.homepage      = ""
-  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
